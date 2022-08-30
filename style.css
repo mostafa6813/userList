@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+input,
+button {
+	border-radius: 5px;
+}
+
+.myForm {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.myForm input {
+	display: block;
+	margin: 10px 0;
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #ccc;
+	font-size: 18px;
+}
+
+.myForm input[type="submit"] {
+	background-color: rgb(58, 99, 16);
+	color: #fff;
+	border: none;
+	padding: 15px;
+	font-size: 17px;
+}
+
+.myForm input[type="password"] {
+	padding-right: 60px;
+}
+
+.passwordContainer,
+.rePasswordContainer {
+	position: relative;
+}
+
+.passwordContainer button,
+.rePasswordContainer button {
+	position: absolute;
+	border: none;
+	background-color: transparent;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	cursor: pointer;
+	z-index: 11;
+}
+
+.sort {
+	width: 600px;
+	background-color: #f4f4f4;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+.sort button {
+	background-color: rgb(43, 6, 154);
+	padding: 10px 25px;
+	border: none;
+	color: rgb(255, 255, 255);
+}
+
+#ulList {
+	width: 600px;
+	margin: 30px auto;
+	list-style: none;
+	padding: 0;
+	font-size: 18px;
+}
+
+#ulList li {
+	margin-top: 15px;
+	background-color: #efefef;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.del-btn {
+	padding: 10px 20px;
+	background-color: rgb(198, 36, 36);
+	color: #fff;
+	border: none;
+}
+
+.edit-btn {
+	padding: 10px 20px;
+	background-color: rgb(36, 60, 198);
+	color: #fff;
+	border: none;
+}
+
+.alert {
+	color: red;
+}
+
+#errorMesage {
+	width: 600px;
+	margin: 10px auto;
+	color: red;
+	padding: 10px;
+	font-size: 22px;
+}

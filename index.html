@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<form action="" autocomplete="off" class="myForm" novalidate id="myForm" onsubmit="return false">
+	<input type="text" tabindex="1" id="name" name="name" placeholder="* Name..." />
+	<input type="email" tabindex="2" id="email" name="email" placeholder="* Email..." />
+	<div class="passwordContainer">
+		<input type="password" tabindex="3" id="password" name="password" placeholder="* Password..." />
+		<button type="button" id="showHidePassword">show</button>
+	</div>
+	<div class="rePasswordContainer">
+		<input type="password" tabindex="4" id="rePassword" name="rePassword" placeholder="* Repassword..." />
+		<button type="button" id="showHideRePassword">show</button>
+	</div>
+	<input type="submit" tabindex="5" value="Submit" />
+</form>
+
+<div id="errorMesage"></div>
+
+<div class="sort">
+	<button id="sortBtn">Sort</button>
+	<button id="resetBtn">Reset</button>
+</div>
+<div id="myList">
+	<ul id="ulList"></ul>
+</div>
+
+<body>
+	<script src="./App.js"></script>
+</body>
+
+</html>
